@@ -19,7 +19,8 @@ const projectId = "9e80e06ffb7741b292ade1080944178a";
 
 /**
  *  @type import('hardhat/config').HardhatUserConfig
-*/
+ */
+// @babel/register
 module.exports = {
   networks: {
     hardhat: {
