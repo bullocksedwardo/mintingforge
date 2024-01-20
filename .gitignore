@@ -27,7 +27,9 @@ yarn-error.log*
 
 # local env files
 .env*.local
-
+.env.development.local
+.env.test.local
+.env.production.local
 # vercel
 .vercel
 
@@ -37,11 +39,14 @@ next-env.d.ts
 
 node_modules
 .env
-
+.secret
+coverage
+coverage.json
+typechain
 # Hardhat files
 /cache
 /artifacts
-.secret
+
 # TypeChain files
 /typechain
 /typechain-types
